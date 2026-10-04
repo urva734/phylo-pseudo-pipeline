@@ -54,6 +54,8 @@ ML Tree: pqqD_ML_tree.png created with 1000 bootstrap
 ![ML Tree](results/figures/pqqD_ML_tree.png)
 
 ## 📁 Project Structure
+
+```
 phylo-pseudo-pipeline/
 ├── R/
 │   └── plot_tree.R
@@ -80,6 +82,7 @@ phylo-pseudo-pipeline/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
 ## ⚙️ How It Works
 - Parses `data/raw/*.fasta` using Biopython SeqIO
