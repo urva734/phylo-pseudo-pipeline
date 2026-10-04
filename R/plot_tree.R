@@ -1,4 +1,4 @@
-# plot_tree.R - Publication-ready phylogenetic tree for your 6 accessions
+# plot_tree.R - Phylogenetic tree for 6 accessions
 library(ape)
 library(ggtree)
 library(ggplot2)
