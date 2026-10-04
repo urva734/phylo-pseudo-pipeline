@@ -3,7 +3,7 @@ library(ape)
 library(ggtree)
 library(ggplot2)
 
-# --- FIXED PATHS TO YOUR ACTUAL FOLDERS ---
+# --- FIXED PATHS TO ACTUAL FOLDERS ---
 TREE_FILE <- "results/tree/tree.nwk"
 FIGURE_PDF <- "results/figures/pqqD_ML_tree.pdf"
 FIGURE_PNG <- "results/figures/pqqD_ML_tree.png"
