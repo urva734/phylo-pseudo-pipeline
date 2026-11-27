@@ -3,6 +3,7 @@
 A Python + MEGA12 pipeline that automates gene collection, GC analysis, MUSCLE alignment, and Maximum Likelihood phylogeny. Case Study: pqqD gene in *Pseudomonas* spp.
 
 **Approach:** All sequences were validated against NCBI accessions prior to analysis. No tree was accepted without MUSCLE alignment check and 1000 bootstrap support.
+
 If it didn't align, it didn't tree.
 ## ✅ Verified Against
 **NCBI Accessions:** CP003080.1, CP003685.1, CP023065.1, CP077007.1, CP125543.1, KM251420.1
@@ -108,4 +109,4 @@ phylo-pseudo-pipeline/
 - [ ] Auto MEGA12 via command line
 - [ ] Add pqqC, pqqE gene analysis
 - [ ] Export Newick + Nexus format
-
+- [ ] Extend validation framework to other genes / reference sets
