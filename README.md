@@ -1,6 +1,7 @@
 # 🧬 PhyloPseudo Pipeline - Universal Bacterial Phylogeny
 
 A Python + MEGA12 pipeline that automates gene collection, GC analysis, MUSCLE alignment, and Maximum Likelihood phylogeny. Case Study: pqqD gene in *Pseudomonas* spp.
+
 **Approach:** All sequences were validated against NCBI accessions prior to analysis. No tree was accepted without MUSCLE alignment check and 1000 bootstrap support.
 If it didn't align, it didn't tree.
 ## ✅ Verified Against
